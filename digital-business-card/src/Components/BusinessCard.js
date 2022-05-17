@@ -4,10 +4,12 @@ import Footer from "./Footer";
 
 function BusinessCard() {
   return (
-    <div>
-      <div className='my-picture'>
-        <img src='./me - Copy.JPG' alt='' />
-      </div>
+    <div className='business-card'>
+      <img
+        className='my-picture'
+        src='./me - Copy.JPG'
+        alt='Head and Shoulder shot of Jordan Wilson'
+      />
       <AboutMe />
       <Footer />
     </div>
