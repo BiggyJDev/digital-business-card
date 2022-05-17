@@ -2,7 +2,7 @@ import React from "react";
 
 function MainContent() {
   return (
-    <>
+    <div className='main-content'>
       <h2>Fun facts about React</h2>
       <ul>
         <li>Was first released in 2013</li>
@@ -40,7 +40,7 @@ function MainContent() {
           </p>
         </li>
       </ol>
-    </>
+    </div>
   );
 }
 
