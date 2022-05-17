@@ -1,14 +1,19 @@
 import React from "react";
+import { BsInstagram, BsGithub } from "react-icons/bs";
 
 function Footer() {
   return (
     <div>
       <ul>
         <li>
-          <a href=''>*instagram logo*</a>
+          <a href='https://www.instagram.com/biggyj_dev/?hl=en-gb'>
+            <BsInstagram />
+          </a>
         </li>
         <li>
-          <a href=''>*GitHub Logo*</a>
+          <a href='https://github.com/BiggyJDev'>
+            <BsGithub />
+          </a>
         </li>
       </ul>
     </div>

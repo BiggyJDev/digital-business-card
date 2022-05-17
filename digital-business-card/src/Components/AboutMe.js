@@ -1,5 +1,6 @@
 import React from "react";
-
+import { HiOutlineMail } from "react-icons/hi";
+import { FaLinkedin } from "react-icons/fa";
 function AboutMe() {
   return (
     <>
@@ -11,8 +12,16 @@ function AboutMe() {
         </h3>
       </div>
       <div className='contact-links'>
-        <button>*Email Icon* Email</button>
-        <button>*LinkedIn* LinkedIn</button>
+        <button>
+          <a href='mailto: biggyj_dev@outlook.com'>
+            <HiOutlineMail /> Email
+          </a>
+        </button>
+        <button>
+          <a href='https://www.linkedin.com/in/jordan-wilson-310030151/'>
+            <FaLinkedin /> LinkedIn
+          </a>
+        </button>
       </div>
       <h1>About</h1>
       <p>
