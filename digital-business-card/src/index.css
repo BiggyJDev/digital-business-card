@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(35, 37, 44);
+  box-sizing: border-box;
 }
 
 code {
@@ -24,9 +25,11 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   max-width: 300px;
   background-color: rgb(26, 27, 33);
+  border-radius: 20px;
 }
 
 .my-picture {
@@ -108,8 +111,27 @@ span {
   max-width: 250px;
   font-size: 10px;
   color: rgb(220, 220, 220);
+  margin-bottom: 20px;
 }
 
 .about > h1 {
   font-size: 16px;
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(22, 22, 25);
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.footer > a {
+  color: rgb(145, 142, 155);
 }
