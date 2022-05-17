@@ -1,1 +1,2 @@
-# React_Static_Site
+# Static Info Page using React 
+
